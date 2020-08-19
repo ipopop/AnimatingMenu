@@ -4,13 +4,32 @@
 <head>
     <meta charset="utf-8">
     <title>Animating Menu</title>
-    <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="nav-styles.css">
 </head>
 
 <body>
-    <div id="togglenav" onclick="navToggle(this)">
-        <div></div>
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>Store</li>
+                </a>
+                <a href="#">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
 </body>
 
 </html>

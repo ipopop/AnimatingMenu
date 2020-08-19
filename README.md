@@ -1,3 +1,3 @@
-'Animating Menu'
+'HTML/CSS Animate Menu'
 
 
